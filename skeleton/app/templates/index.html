@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lot Tracker</title>
+    <!-- STYLES -->
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/css/font-awesome.min.css">
+    <link rel="stylesheet" href="static/css/font-awesome-animation.min.css">
+    <link rel="stylesheet" href="static/css/custom.css">
+
+</head>
+
+
+<body>
+    <div id="particles-js"></div>
+    <div id="overlay"></div>
+    <div class="container-fluid"><!-- START CONTAINER -->
+        <div id="wait" style="display:none;width:69px;height:89px;position:absolute;top:50%;left:50%;padding:2px;"><img src="static/img/Preloader_3.gif" alt=""><br>Loading..</div>
+
+            <nav class="navbar navbar-default"><!-- LOGO NAVI -->
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="navbar-header">
+                                <a href="#">
+                                    <img id="logo" class="img-responsive"  src="static/img/Cypress_Semiconductor_logo.svg">
+                                </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h1 class="title"></h1>
+                    </div>
+                </div>
+            </nav><!-- END LOGO NAVI -->
+        
+       
+        <div class="row app"><!-- Main APP -->
+            <!-- CONTENT -->
+            {%block content%}
+            {%endblock%}
+            <!-- END CONTENT -->
+        </div><!-- Main APP END -->
+
+    <footer>
+	    <nav class="navbar navbar-default  navbar-fixed-bottom" role="navigation">
+	        <div class="container text-center">
+	                <p class="text-muted credit">© XXXX CIM Dev Group</p>
+	                <p class="text-muted credit">DEVELOPER</p>
+	        </div>
+	    </nav>
+    </footer>
+
+    </div><!-- END CONTAINER -->
+
+
+
+    <script src="static/js/jquery-3.2.1.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <script src="static/js/Chart.bundle.min.js"></script>
+    <script type="text/javascript" src="static/js/particles/particles.min.js"></script>
+    <script type="text/javascript" src="static/js/particles/app.js"></script>
+    <script type="text/javascript" src="static/js/custom.js"></script>
+</body>
+
+</html>

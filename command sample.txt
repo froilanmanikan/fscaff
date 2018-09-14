@@ -1,0 +1,1 @@
+python flask_skeleton.py new_project -s skeleton -g

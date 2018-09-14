@@ -1,0 +1,50 @@
+body{
+
+    background-color: #eff;
+
+}
+
+#particles-js {
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:0;
+}
+#overlay {
+  position: relative;
+}
+
+
+#content{
+
+    border-left: .1em solid #000;
+    padding-bottom: .5em;
+}
+
+.navbar-header{
+    height: 7em;
+}
+
+.app{
+    margin-top: 3em;
+}
+
+.title{
+    margin-top: 1.5em;
+}
+
+#navigation-top, #navigation-bottom{
+     -webkit-box-shadow: 0 8px 6px -6px #999;
+        -moz-box-shadow: 0 8px 6px -6px #999;
+             box-shadow: 0 8px 6px -6px #999;
+}
+
+.fa {
+  color: red;
+}
+
+footer{
+    margin-top: 3em;
+}
